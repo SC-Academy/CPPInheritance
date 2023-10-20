@@ -11,7 +11,7 @@ using namespace std;
 
 class Shape {
 public:
-  virtual void draw() = 0; // pure virtual function
+  virtual void draw() = 0; // pure virtual function.
 };
 
 class Circle : public Shape {
